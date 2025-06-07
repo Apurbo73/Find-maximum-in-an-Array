@@ -1,8 +1,5 @@
 ### Find maximum in an Array
 
-
-Certainly! Let's break down the C++ code you posted:
-
 ---
 
 ```cpp
@@ -75,4 +72,6 @@ int main() {
 
 * Ends the loop and the program.
 
+This C++ program reads multiple test cases, where each test case consists of a list of mountain heights. For every test case, it stores all the heights in a vector and sorts the vector in ascending order. Once sorted, the tallest mountain will be at the last position in the vector.
 
+After sorting, the program simply prints the last element of the vector, which represents the tallest mountain for that test case. While this method is straightforward and works well, it's slightly less efficient than using a direct maximum search since sorting takes more time than just finding the max value
