@@ -1,4 +1,4 @@
-﻿# Find-maximum-in-an-Array
+### Find maximum in an Array
 
 
 Certainly! Let's break down the C++ code you posted:
@@ -75,4 +75,4 @@ int main() {
 
 * Ends the loop and the program.
 
-In summary: for each test case, it reads the mountain heights, stores them in a vector, sorts them, and prints the largest one. Want a [version using `max_element`](f) instead of sorting for better performance?
+
