@@ -1,23 +1,25 @@
-#include <iostream>
+#include <bits/stdc++.h>
+
 using namespace std;
 
 int main() {
     int T;
-    cin >> T;  
+    cin >> T;
 
     while (T--) {
         int N;
-        cin >> N; 
+        cin >> N;
+        vector < int > v;
 
-        int maxHeight = 0;
-        for (int i = 0; i < N; ++i) {
+        for (int i = 0; i < N; i++) {
             int h;
             cin >> h;
-            if (h > maxHeight)
-                maxHeight = h;
+            v.push_back(h);
         }
 
-        cout << maxHeight << endl;  
+        sort(v.begin(), v.end());
+        int s = v.size();
+        cout << v[s - 1] << endl;
     }
 
     return 0;
